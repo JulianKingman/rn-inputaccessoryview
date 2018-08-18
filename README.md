@@ -1,5 +1,6 @@
 # rn-inputaccessoryview-helper
- Helper context/provider to make InputAccessoryView more useful
+ Helper context/provider to make InputAccessoryView more useful.
+ Requires 0.56+ (Expo 29+)
  
  ## Install
  

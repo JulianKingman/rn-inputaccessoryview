@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/JulianKingman/rn-inputaccessoryview-helper/issues"
   },
-  "homepage": "https://github.com/JulianKingman/rn-inputaccessoryview-helper#readme"
+  "homepage": "https://github.com/JulianKingman/rn-inputaccessoryview-helper#readme",
+  "peerDependencies": {
+    "hoist-non-react-statics": "^3.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  }
 }
