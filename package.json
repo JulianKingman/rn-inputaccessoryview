@@ -1,6 +1,6 @@
 {
   "name": "rn-inputaccessoryview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helpers to make InputAccessoryView more useful",
   "main": "index.js",
   "directories": {
