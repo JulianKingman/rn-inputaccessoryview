@@ -1,0 +1,28 @@
+{
+  "name": "rn-inputaccessoryview-helper",
+  "version": "1.0.0",
+  "description": "Helper context to make InputAccessoryView more useful",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianKingman/rn-inputaccessoryview-helper.git"
+  },
+  "keywords": [
+    "inputaccessory",
+    "inputaccessoryview",
+    "react",
+    "native"
+  ],
+  "author": "Julian Kingman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulianKingman/rn-inputaccessoryview-helper/issues"
+  },
+  "homepage": "https://github.com/JulianKingman/rn-inputaccessoryview-helper#readme"
+}
