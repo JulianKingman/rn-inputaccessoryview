@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import InputAccessoryContext from './InputAccessoryContext';
 
 export default class InputAccessoryProvider extends Component {
