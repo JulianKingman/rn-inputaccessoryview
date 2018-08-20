@@ -7,7 +7,7 @@ const withInputAccessory = WrappedComponent =>
   hoistStatics(
     <InputAccessoryContext.Consumer>
       {inputAccessoryProps => (
-        <WrappedComponent {...inputAccessoryProps} {...props} ref={ref} />
+        <WrappedComponent {...inputAccessoryProps} {...props} />
       )}
     </InputAccessoryContext.Consumer>,
     WrappedComponent
