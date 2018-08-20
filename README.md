@@ -118,3 +118,7 @@ const styles = StyleSheet.create({
   }
 })
 ```
+
+## TODO:
+
+ - [ ] Fix refs with `React.forwardRef` (this issue: https://github.com/gaearon/react-proxy/issues/82)

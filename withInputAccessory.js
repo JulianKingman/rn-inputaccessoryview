@@ -5,13 +5,11 @@ import InputAccessoryContext from './InputAccessoryContext';
 
 const withInputAccessory = WrappedComponent =>
   hoistStatics(
-    React.forwardRef((props, ref) => (
-      <InputAccessoryContext.Consumer>
-        {inputAccessoryProps => (
-          <WrappedComponent {...inputAccessoryProps} {...props} ref={ref} />
-        )}
-      </InputAccessoryContext.Consumer>
-    )),
+    <InputAccessoryContext.Consumer>
+      {inputAccessoryProps => (
+        <WrappedComponent {...inputAccessoryProps} {...props} ref={ref} />
+      )}
+    </InputAccessoryContext.Consumer>,
     WrappedComponent
   );
 
